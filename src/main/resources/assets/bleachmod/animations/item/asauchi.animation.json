@@ -3,61 +3,24 @@
   "animations": {
     "animation.asauchi.idle": {
       "loop": true,
-      "animation_length": 2.0,
+      "animation_length": 2,
       "bones": {
         "root": {
           "rotation": {
             "0.0": [
               0,
               0,
-              -42
+              -38
             ],
             "1.0": [
               0,
               0,
-              -40
+              -36
             ],
             "2.0": [
               0,
               0,
-              -42
-            ]
-          }
-        }
-      }
-    },
-    "animation.asauchi.unsheathe": {
-      "loop": false,
-      "animation_length": 0.6,
-      "bones": {
-        "root": {
-          "rotation": {
-            "0.0": [
-              0,
-              0,
-              -85
-            ],
-            "0.25": [
-              0,
-              0,
-              -50
-            ],
-            "0.6": [
-              0,
-              0,
-              -42
-            ]
-          },
-          "position": {
-            "0.0": [
-              0,
-              -1.5,
-              0
-            ],
-            "0.6": [
-              0,
-              0,
-              0
+              -38
             ]
           }
         }
