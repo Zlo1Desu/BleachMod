@@ -1,6 +1,7 @@
 package com.zlo1desu.bleachmod.init;
 
 import com.zlo1desu.bleachmod.BleachMod;
+import com.zlo1desu.bleachmod.item.AsauchiItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Tiers;
@@ -18,7 +19,7 @@ public class ItemInit {
     // Tiers.IRON означает, что по прочности и урону он будет базово как железный меч
     // 3 - это бонусный урон, -2.4f - скорость атаки (стандарт для мечей)
     public static final RegistryObject<Item> ASAUCHI = ITEMS.register("asauchi",
-            () -> new SwordItem(Tiers.IRON, 3, -2.4f, new Item.Properties()));
+            () -> new AsauchiItem(Tiers.IRON, 3, -2.4f, new Item.Properties()));
 
     // Метод для подключения этого реестра к самому моду
     public static void register(IEventBus eventBus) {
